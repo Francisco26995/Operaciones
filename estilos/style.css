@@ -1,0 +1,53 @@
+html{
+	font-size: 62.5%; /*reset para rems*/
+    background-color: black
+}
+
+body{
+	font-family: 'Anton', sans-serif;
+	font-size: 1.5rem;
+	line-height: 2rem;
+    
+}
+/*GROBALES*/
+.contenedor{
+	max-width: 120rem;
+	margin: 0 10px 0 10px;
+}
+
+.contenido-header{
+	max-width: 120rem;
+	margin: 0 10px 0 10px;
+}
+
+.titulo{
+    color:crimson;
+    text-align: center;
+    padding: 15rem;
+    font-family: fantasy;
+    font-size: 80px;
+}
+.tituloP{
+    background-image:url(../img/operaciones.jpg);
+    background-position: center center;
+    background-size: cover; 
+    width:1330px ;
+    min-height: 30rem;
+}
+
+p{
+    text-align: center;
+    width:1330px ;
+}
+.texto{
+    text-justify: auto;
+    margin: .5rem;
+}
+.casillas{
+    text-align: center;
+}
+.btn {
+    float: none;
+    align-items:center;
+    margin: 1rem;
+}
